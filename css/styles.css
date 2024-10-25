@@ -1,0 +1,33 @@
+
+/* Sección Navbar */
+
+.active-home{
+    color: #9FCBCB;
+}
+/* Fondo*/
+.bg-image{
+    background-image: url('../assets/images/Background-Landing.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+/* Boton con logo en el inicio */
+.logo-circle {
+    width: 80px; /* Ajusta el tamaño según sea necesario */
+    height: 80px; /* Mantén el mismo valor que el ancho para el círculo */
+    border-radius: 50%; /* Hace que el div sea circular */
+    overflow: hidden; /* Oculta el contenido que excede el círculo */
+    display: flex; /* Para centrar la imagen */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+  
+  .logo-img {
+    width: 100%; /* La imagen tomará todo el ancho del contenedor circular */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
