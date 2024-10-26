@@ -9,46 +9,44 @@
 </head>
 <body>
    
-    <div class="container-fluid bg-image p-0">
-
-        <!--Barra de navegación  -->
-
-    <div class="row">
-        <ul class="nav justify-content-evenly align-items-center mt-3">
-            <div class="logo-circle">
-                <img src="assets/images/Logo/logo.png" alt="Govench Logo" class="logo-img">
-            </div>
-            <li class="nav-item">
-              <a class="nav-link active-home" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Eventos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Contátanos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">FAQ</a>
-            </li>
-            <div class="d-flex justify-content-end">
-              <button class="btn btn-outline-dark" type="button">
-                <i class="bi bi-person"></i> Iniciar sesión
-              </button>
-            </div>
-          </ul>
-          
-          
+  <div class="container-fluid bg-image p-0">
+    <!--Barra de navegación  -->
+    <div class="row align-items-center mt-3">
+      <!-- Logo -->
+      <div class="col-auto">
+        <div class="logo-circle">
+          <img src="assets/images/Logo/logo.png" alt="Govench Logo" class="logo-img img-fluid">
+        </div>
+      </div>
+      <!-- Enlaces de navegación -->
+      <div class="col">
+        <ul class="nav justify-content-center align-items-center mt-3">
+          <li class="nav-item">
+            <a class="nav-link active-home" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Contátanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">FAQ</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Botón de iniciar sesión -->
+      <div class="col-auto">
+        <button class="btn btn-outline-dark rounded-start-pill" type="button" (click)="inLogged"><i class="fa-solid fa-user"></i> Iniciar Sesion</button>
+      </div>
     </div>
-
-
-
-    </div>
+  </div>
     
 
-    <!-- Sección de Introdución - CONECTATE AHORA -->
+    
 
     <!-- -----------------------------Acá empezará un div con el fondo y con gradiente----------------------------- -->
 
