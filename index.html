@@ -8,10 +8,51 @@
     <title>Govench</title>
 </head>
 <body>
-   
-    <!--Barra de navegación  -->
+   <!-- Barra de navegación fija -->
+   <nav class="navbar p-0">
+    <div class="container-fluid p-0 mt-3">
+        <div class="d-flex justify-content-between align-items-center w-100"> <!-- Flex container para dividir el espacio -->
+            <div class="logo-circle">
+                <img src="assets/images/Logo/logo.png" alt="Govench Logo" class="logo-img img-fluid">
+            </div>
+            
+            <div class="d-flex align-items-center"> <!-- Agrupando logo y links -->
+                
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active-home" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contátanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Botón de iniciar sesión a la derecha -->
+            <button class="btn btn-outline-dark rounded-start-pill" type="button" (click)="inLogged">
+                <i class="fa-solid fa-user"></i> Iniciar Sesión
+            </button>
+        </div>
+    </div>
+</nav>
 
-    <!-- Sección de Introdución - CONECTATE AHORA -->
+
+    <div class="bg-image">
+        
+    </div>
+
+    <div class="p">futuro contenido</div>
+
+
+    
 
     <!-- -----------------------------Acá empezará un div con el fondo y con gradiente----------------------------- -->
 

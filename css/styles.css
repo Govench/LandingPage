@@ -1,0 +1,49 @@
+/* Estilo básico para el body */
+body {
+  margin: 0; /* Elimina el margen por defecto */
+}
+
+/* Barra de navegación */
+.navbar {
+  position: fixed; /* Mantiene la barra de navegación fija en la parte superior */
+  top: 0; /* Alineada al borde superior */
+  width: 100%; /* Ocupa todo el ancho */
+  padding: 10px 20px; /* Espaciado interno */
+  z-index: 10; /* Asegura que esté por encima del contenido */
+}
+
+/* Estilos de los enlaces de navegación */
+.nav-link {
+  color: white; /* Color del texto */
+  margin: 0 15px; /* Espaciado entre los enlaces */
+  text-decoration: none; /* Elimina el subrayado */
+}
+
+.nav-link:hover {
+  color: #9FCBCB; /* Color al pasar el mouse */
+}
+
+/* Estilo del logo */
+.logo-circle {
+  width: 50px; /* Tamaño del logo */
+  height: 50px; /* Tamaño del logo */
+  border-radius: 50%; /* Hace que el div sea circular */
+  overflow: hidden; /* Oculta el contenido que excede el círculo */
+  display: inline-block; /* Permite que se ajuste al texto */
+}
+
+/* Contenedor de fondo */
+.bg-image {
+  background-image: url('../assets/images/Background-Landing.png'); /* Ruta de tu imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* No repite la imagen */
+  height: 100vh; /* Altura total de la ventana */
+  padding-top: 70px; /* Espacio superior para evitar que el contenido se superponga a la navbar */
+}
+
+/* Contenido adicional */
+.content {
+  padding: 20px; /* Espaciado interno para el contenido */
+  color: white; /* Color del texto */
+}
