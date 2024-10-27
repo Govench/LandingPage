@@ -1,5 +1,5 @@
 .gradient {
-    background: linear-gradient(192deg, #FFF 23.99%, #8B8EA3 48.58%, #010635 83.26%);
+    background: linear-gradient(180deg, #FFFFFF 0%, #8B8EA3 40%, #010635 100%); /* Gradiente ajustado */
     
 }
 
