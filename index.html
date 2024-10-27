@@ -6,13 +6,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/carrusel.css">
+    <link rel="stylesheet" href="css/body.css">
     <title>Govench</title>
 </head>
 <body>
    <!-- Barra de navegación fija -->
    <nav class="navbar p-0">
     <div class="container-fluid p-0 mt-3">
-        <div class="d-flex justify-content-between align-items-center w-100"> <!-- Flex container para dividir el espacio -->
+        <div class="d-flex justify-content-between align-items-center w-100 p-2"> <!-- Flex container para dividir el espacio -->
             <div class="logo-circle">
                 <img src="assets/images/Logo/logo.png" alt="Govench Logo" class="logo-img img-fluid">
             </div>
@@ -48,9 +49,9 @@
 
     <div class="bg-image">
 
-        <div class= "row mt-3 p-3 fh100 d-flex">
+        <div class= "row mt-3 p-3 fh100 d-flex justify-content-center">
         
-            <div class="columnaP col-md-6">
+            <div class="columnaP col-md-6 mt-2">
     
                 <div class = "title fw-bold">
                     <p>| CONECTATE</p>
@@ -67,7 +68,7 @@
                 
             </div>
     
-            <div class="carrusel col-md 6">
+            <div class="carrusel col-md-6 mt-2">
                 <div id="carouselGovench" class="carousel slide">
     
                     <div class="carousel-indicators">
@@ -117,14 +118,113 @@
         
     </div>
 
-    <div class="p">futuro contenido</div>
 
 
     
 
     <!-- -----------------------------Acá empezará un div con el fondo y con gradiente----------------------------- -->
 
+    <div class="gradient">
+        <p class="noso fw-bold text-end">Sobre Nosotros |</p>
+    <div class="misVisi text-center">
+        <div class="row d-flex justify-content-center">
+            <div class="mis col-md-5">
+                <h3 class="fw-bold">Misión</h3>
+                <p class="card-text">Nuestra misión es ofrecer un espacio virtual y físico donde los profesionales de la tecnología puedan compartir conocimientos, establecer contactos y descubrir las últimas tendencias del sector. A través de una curaduría rigurosa de eventos, talleres y conferencias, buscamos inspirar a la comunidad, promover la colaboración y fomentar el crecimiento profesional de nuestros usuarios.</p>
+            </div>
 
+            <div class="vis col-md-5">
+                <h3 class="fw-bold">Visión</h3>
+                <p class="card-text">Ser la plataforma de referencia en Latinoamérica para la comunidad tecnológica, conectando a los principales actores de la industria y fomentando la innovación a través de eventos de vanguardia. Aspiramos a ser un catalizador de ideas disruptivas, impulsando el desarrollo tecnológico y la transformación digital en la región.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="team-section">
+        <p class="subTitle fw-bold">| Equipo de JADYMIG TECH</p>
+        <div class="row team text-center">
+            <div class="col">
+                <img src="https://cdn.animaapp.com/projects/66e5fcd520f83e13e1116247/releases/66e5fdfaba7515fb3ad88d27/img/image@2x.png" alt="Javier Aguilar Blas">
+                <h4>Javier Aguilar Blas</h4>
+                <p>Desarrollador</p>
+            </div>
+
+            <div class="col">
+                <img src="https://cdn.animaapp.com/projects/66e5fcd520f83e13e1116247/releases/66e5fdfaba7515fb3ad88d27/img/image-1@2x.png" alt="Dylan Acevedo">
+                <h4>Dylan Acevedo</h4>
+                <p>Desarrollador</p>
+            </div>
+
+            <div class="col">
+                <img src="https://cdn.animaapp.com/projects/66e5fcd520f83e13e1116247/releases/66e5fdfaba7515fb3ad88d27/img/image-3@2x.png" alt="Miguel Escobar">
+                <h4>Miguel Escobar</h4>
+                <p>Desarrollador</p>
+            </div>
+
+            <div class="col">
+                <img src="https://cdn.animaapp.com/projects/66e5fcd520f83e13e1116247/releases/66e5fdfaba7515fb3ad88d27/img/image-2@2x.png" alt="Gino Guevara Villalobos">
+                <h4>Gino Guevara Villalobos</h4>
+                <p>Desarrollador</p>
+            </div>
+
+            <div class="col">
+                <img src="https://cdn.animaapp.com/projects/66e5fcd520f83e13e1116247/releases/66e5fdfaba7515fb3ad88d27/img/image-5@2x.png" alt="Jaime Palomino">
+                <h4>Jaime Palomino</h4>
+                <p>Desarrollador</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="faq row d-flex align-items-center">
+        <div class="pregu col-md-5 fw-bold">
+            <p>| Preguntas</p>
+            <p>| Frecuentes</p>
+        </div>
+
+        <div class="acor col-md-6">
+            <div class="accordion" id="accordionGovench">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            ¿Qué es Govench?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            Govench es una plataforma que busca conectar a los profesionales de la tecnología en Perú. Ofrecemos un espacio virtual y físico donde los usuarios pueden compartir conocimientos, establecer contactos y descubrir las últimas tendencias del sector.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            ¿Cómo puedo participar en Govench?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Puedes participar en Govench registrándote en nuestra plataforma. Una vez registrado, podrás acceder a todos los eventos, talleres y conferencias que ofrecemos. También puedes unirte a nuestra comunidad en línea para conectar con otros profesionales de la tecnología.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            ¿Qué tipo de eventos ofrece Govench?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Govench ofrece una variedad de eventos, incluyendo conferencias, talleres, hackathons, meetups y más. Todos nuestros eventos están diseñados para ayudar a los profesionales de la tecnología a aprender, crecer y conectar con otros.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
     
 
 

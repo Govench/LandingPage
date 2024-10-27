@@ -1,0 +1,81 @@
+.gradient{
+    background: linear-gradient(192deg, #FFF 23.99%, #8B8EA3 48.58%, #010635 83.26%);
+
+}
+
+.noso {
+    padding-top: 50px;
+    color: #010635;
+    font-size: 65px;
+}
+
+.misVisi {
+    padding: 100px;
+}
+
+.mis {
+    border-radius: 30px;
+    border: 1px solid #000;
+    border-right: 10px solid #000;
+    border-bottom: 10px solid #000;
+    opacity: 0.8;
+    background: #FFF;
+    box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 40px;
+}
+
+.vis {
+    border-radius: 35px;
+    border: 1px solid #000;
+    border-right: 10px solid #000;
+    border-bottom: 10px solid #000;
+    opacity: 0.8;
+    background: #FFF;
+    box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 40px;
+}
+
+.misVisi h3 {
+    color: #000000;
+    font-size: 45px;
+}
+
+.misVisi p {
+    font-size: 18px;
+}
+
+.team-section {
+    color: #FFF;
+}
+
+.team-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-section .subTitle {
+    padding-left: 30px;
+    font-size: 65px;
+}
+
+.team-section .team {
+    padding: 100px;
+}
+
+.faq .pregu {
+    color: #FFF;
+    
+    font-size: 70px;
+}
+
+.acor {
+    background: none;
+    
+}
+
+.subTitle{
+    color:#010635;
+}
