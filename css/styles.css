@@ -1,3 +1,5 @@
+
+/*NAVBAR*/
 /* Estilo básico para el body */
 body {
   margin: 0; /* Elimina el margen por defecto */
@@ -47,3 +49,9 @@ body {
   padding: 20px; /* Espaciado interno para el contenido */
   color: white; /* Color del texto */
 }
+
+.fh100 {
+  height: 100%;
+}
+/*CARRUSEL*/
+
