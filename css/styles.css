@@ -1,34 +1,49 @@
-
-/* Sección Navbar */
-
-.active-home{
-    color: #9FCBCB;
-}
-/* Fondo*/
-.bg-image{
-    background-image: url('../assets/images/Background-Landing.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
+/* Estilo básico para el body */
+body {
+  margin: 0; /* Elimina el margen por defecto */
 }
 
-/* Boton con logo en el inicio */
+/* Barra de navegación */
+.navbar {
+  position: fixed; /* Mantiene la barra de navegación fija en la parte superior */
+  top: 0; /* Alineada al borde superior */
+  width: 100%; /* Ocupa todo el ancho */
+  padding: 10px 20px; /* Espaciado interno */
+  z-index: 10; /* Asegura que esté por encima del contenido */
+}
+
+/* Estilos de los enlaces de navegación */
+.nav-link {
+  color: white; /* Color del texto */
+  margin: 0 15px; /* Espaciado entre los enlaces */
+  text-decoration: none; /* Elimina el subrayado */
+}
+
+.nav-link:hover {
+  color: #9FCBCB; /* Color al pasar el mouse */
+}
+
+/* Estilo del logo */
 .logo-circle {
-  width: 80px; /* Ajusta el tamaño según sea necesario */
-  height: 80px; /* Mantén el mismo valor que el ancho para el círculo */
+  width: 50px; /* Tamaño del logo */
+  height: 50px; /* Tamaño del logo */
   border-radius: 50%; /* Hace que el div sea circular */
   overflow: hidden; /* Oculta el contenido que excede el círculo */
-  display: flex; /* Para centrar la imagen */
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
+  display: inline-block; /* Permite que se ajuste al texto */
 }
 
-.logo-img {
-  width: 100%; /* La imagen tomará todo el ancho del contenedor circular */
-  height: 100%; /* La imagen tomará todo el alto del contenedor circular */
-  object-fit: cover; /* Ajusta la imagen para que cubra el contenedor sin distorsionarse */
+/* Contenedor de fondo */
+.bg-image {
+  background-image: url('../assets/images/Background-Landing.png'); /* Ruta de tu imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* No repite la imagen */
+  height: 100vh; /* Altura total de la ventana */
+  padding-top: 70px; /* Espacio superior para evitar que el contenido se superponga a la navbar */
+}
+
+/* Contenido adicional */
+.content {
+  padding: 20px; /* Espaciado interno para el contenido */
+  color: white; /* Color del texto */
 }

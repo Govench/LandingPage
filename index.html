@@ -8,43 +8,49 @@
     <title>Govench</title>
 </head>
 <body>
-   
-  <div class="container-fluid bg-image p-0">
-    <!--Barra de navegación  -->
-    <div class="row align-items-center mt-3">
-      <!-- Logo -->
-      <div class="col-auto">
-        <div class="logo-circle">
-          <img src="assets/images/Logo/logo.png" alt="Govench Logo" class="logo-img img-fluid">
+   <!-- Barra de navegación fija -->
+   <nav class="navbar p-0">
+    <div class="container-fluid p-0 mt-3">
+        <div class="d-flex justify-content-between align-items-center w-100"> <!-- Flex container para dividir el espacio -->
+            <div class="logo-circle">
+                <img src="assets/images/Logo/logo.png" alt="Govench Logo" class="logo-img img-fluid">
+            </div>
+            
+            <div class="d-flex align-items-center"> <!-- Agrupando logo y links -->
+                
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active-home" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contátanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Botón de iniciar sesión a la derecha -->
+            <button class="btn btn-outline-dark rounded-start-pill" type="button" (click)="inLogged">
+                <i class="fa-solid fa-user"></i> Iniciar Sesión
+            </button>
         </div>
-      </div>
-      <!-- Enlaces de navegación -->
-      <div class="col">
-        <ul class="nav justify-content-center align-items-center mt-3">
-          <li class="nav-item">
-            <a class="nav-link active-home" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Eventos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Contátanos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">FAQ</a>
-          </li>
-        </ul>
-      </div>
-      <!-- Botón de iniciar sesión -->
-      <div class="col-auto">
-        <button class="btn btn-outline-dark rounded-start-pill" type="button" (click)="inLogged"><i class="fa-solid fa-user"></i> Iniciar Sesion</button>
-      </div>
     </div>
-  </div>
-    
+</nav>
+
+
+    <div class="bg-image">
+        
+    </div>
+
+    <div class="p">futuro contenido</div>
+
 
     
 
